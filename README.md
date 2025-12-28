@@ -137,36 +137,8 @@ Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
 
-📸 PASSO 3 — COMO TIRAR OS PRINTS CERTOS
 
-Tire prints de:
 
-docker run hello-world
 
-docker run -it ubuntu bash
-
-docker ps -a
-
-Navegador com localhost:8080
-
-docker volume ls
-
-💡 Dica:
-
-Use Print Screen
-
-Cole no GitHub direto no README (ele aceita imagens arrastando)
-
-💻 PASSO 4 — QUER USAR VS CODE? (OPCIONAL)
-
-Se quiser ficar ainda mais profissional:
-
-Abra o VS Code
-
-Abra a pasta do repositório
-
-Edite o README.md
-
-Commit changes
 
 
