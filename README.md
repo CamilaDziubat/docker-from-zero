@@ -141,25 +141,26 @@ docker run -d \
 
 🚀 Next steps
 
--Dockerfile
+- Dockerfile
 
--docker-compose
+- Docker-compose
 
--Backend with:
+- Backend with:
 
--Python
+- Python
 
--.NET
+- .NET
 
--Java
+- Java
 
--Database integration
+- Database integration
 
 ✨ Author
 
 Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
+
 
 
 
