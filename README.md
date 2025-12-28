@@ -7,14 +7,14 @@ The goal is to understand Docker the right way, focusing on real-world concepts 
 
 🖥️ Environment
 
-Windows 10
+- Windows 10
 
-WSL 2
+- WSL 2
 
-Ubuntu (WSL)
+- Ubuntu (WSL)
 
-Docker Desktop
-
+- Docker Desktop
+---
 # 📌 What I’ve learned so far
 
 What Docker is and why it is used
@@ -169,6 +169,7 @@ docker run -d \
 Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
+
 
 
 
