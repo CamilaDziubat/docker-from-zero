@@ -63,26 +63,31 @@ docker ps -a
 <img width="1356" height="144" alt="image" src="https://github.com/user-attachments/assets/16ae8fc9-53fa-47c9-a9f1-1436b5c0c320" />
 
 
-Print showing stopped containers
 
-🌐 Lesson 2 — Ports and Networking
+
+### 🌐 Lesson 2 — Ports and Networking
 🔹 Running Nginx and exposing a port
 docker run -d -p 8080:80 nginx
 
+<img width="1350" height="171" alt="image" src="https://github.com/user-attachments/assets/ebd8595e-3f99-414d-a188-5065ad84125b" />
 
 Access in the browser:
 
 http://localhost:8080
 
 
-📸 Screenshot suggestion:
+<img width="1302" height="643" alt="image" src="https://github.com/user-attachments/assets/f20ed867-04e5-4a72-b25e-c32b870a7674" />
 
-Print of the browser showing “Welcome to nginx!”
+
+
 
 🔹 Checking running containers
 docker ps
 
-💾 Lesson 3 — Volumes and Persistence
+<img width="1188" height="111" alt="image" src="https://github.com/user-attachments/assets/7216548b-5f29-4172-8cf4-7752a1b706da" />
+
+
+### 💾 Lesson 3 — Volumes and Persistence
 🔹 Running MySQL with a volume
 docker run -d \
   --name mysql-db \
@@ -91,13 +96,15 @@ docker run -d \
   -v mysql_data:/var/lib/mysql \
   mysql:8.0
 
+  <img width="903" height="188" alt="image" src="https://github.com/user-attachments/assets/30f63e19-1624-4b9b-8b49-636eaaf7bdce" />
+
+
 🔹 Listing volumes
 docker volume ls
 
 
-📸 Screenshot suggestion:
+<img width="1176" height="84" alt="image" src="https://github.com/user-attachments/assets/953bcd1b-1519-477e-a123-ad0f85f960ae" />
 
-Print showing mysql_data volume
 
 🔹 Removing container without losing data
 docker stop mysql-db
@@ -137,6 +144,7 @@ Database integration
 Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
+
 
 
 
