@@ -60,7 +60,8 @@ Print inside the Ubuntu container showing system files
 docker ps -a
 
 
-📸 Screenshot suggestion:
+<img width="1356" height="144" alt="image" src="https://github.com/user-attachments/assets/16ae8fc9-53fa-47c9-a9f1-1436b5c0c320" />
+
 
 Print showing stopped containers
 
@@ -136,6 +137,7 @@ Database integration
 Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
+
 
 
 
