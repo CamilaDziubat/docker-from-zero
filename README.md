@@ -39,8 +39,10 @@ docker run hello-world
 
 
 🔹 Running an interactive Ubuntu container
-docker run -it ubuntu bash
+```bash
 
+docker run -it ubuntu bash
+```
 <img width="682" height="230" alt="image" src="https://github.com/user-attachments/assets/e181f84f-9adf-47d1-8755-7190192aed29" />
 
 
@@ -58,8 +60,9 @@ exit
 Print inside the Ubuntu container showing system files
 
 🔹 Listing containers
+```bash
 docker ps -a
-
+```
 
 <img width="1356" height="144" alt="image" src="https://github.com/user-attachments/assets/16ae8fc9-53fa-47c9-a9f1-1436b5c0c320" />
 
@@ -138,25 +141,26 @@ docker run -d \
 
 🚀 Next steps
 
-Dockerfile
+-Dockerfile
 
-docker-compose
+-docker-compose
 
-Backend with:
+-Backend with:
 
-Python
+-Python
 
-.NET
+-.NET
 
-Java
+-Java
 
-Database integration
+-Database integration
 
 ✨ Author
 
 Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
+
 
 
 
