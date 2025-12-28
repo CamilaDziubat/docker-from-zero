@@ -15,7 +15,7 @@ Ubuntu (WSL)
 
 Docker Desktop
 
-📌 What I’ve learned so far
+# 📌 What I’ve learned so far
 
 What Docker is and why it is used
 
@@ -46,10 +46,11 @@ docker run -it ubuntu bash
 
 Inside the container:
 
+```bash
 ls
 cat /etc/os-release
 exit
-
+```
 
 <img width="1007" height="316" alt="image" src="https://github.com/user-attachments/assets/e77e338b-9c86-4674-b8a8-8639bc5d068d" />
 
@@ -67,7 +68,9 @@ docker ps -a
 
 ### 🌐 Lesson 2 — Ports and Networking
 🔹 Running Nginx and exposing a port
+```bash
 docker run -d -p 8080:80 nginx
+```
 
 <img width="1350" height="171" alt="image" src="https://github.com/user-attachments/assets/ebd8595e-3f99-414d-a188-5065ad84125b" />
 
@@ -82,36 +85,46 @@ http://localhost:8080
 
 
 🔹 Checking running containers
+
+```bash
 docker ps
+```
 
 <img width="1188" height="111" alt="image" src="https://github.com/user-attachments/assets/7216548b-5f29-4172-8cf4-7752a1b706da" />
 
 
 ### 💾 Lesson 3 — Volumes and Persistence
 🔹 Running MySQL with a volume
+```bash
 docker run -d \
   --name mysql-db \
   -e MYSQL_ROOT_PASSWORD=123456 \
   -p 3306:3306 \
   -v mysql_data:/var/lib/mysql \
   mysql:8.0
-
+```
   <img width="903" height="188" alt="image" src="https://github.com/user-attachments/assets/30f63e19-1624-4b9b-8b49-636eaaf7bdce" />
 
 
 🔹 Listing volumes
+```bash
 docker volume ls
-
+```
 
 <img width="1176" height="84" alt="image" src="https://github.com/user-attachments/assets/953bcd1b-1519-477e-a123-ad0f85f960ae" />
 
 
 🔹 Removing container without losing data
+
+```bash
+
 docker stop mysql-db
 docker rm mysql-db
-
+```
 
 Recreating:
+
+```bash
 
 docker run -d \
   --name mysql-db \
@@ -119,7 +132,7 @@ docker run -d \
   -p 3306:3306 \
   -v mysql_data:/var/lib/mysql \
   mysql:8.0
-
+```
 
 ✅ Data persists thanks to volumes.
 
@@ -144,6 +157,7 @@ Database integration
 Camila Dziubat
 Junior Software Engineer | Backend Developer
 Learning Docker, Linux, and Backend technologies 🚀
+
 
 
 
